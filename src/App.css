@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style: groove;
+  border-color: black;
+  background-color: lightgray;
+}
+
+
+.header{
+  height: 3vh;
+  display: flex;
+  border-style: groove;
+  border-color: red;
+  order: 1;
+}
+
+
+.main{
+  border-style: groove;
+  border-color: green;
+}
+
+
